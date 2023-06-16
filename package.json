@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "joi": "^13.7.0",
+    "mongoose": "^7.2.2",
+    "node-json2html": "^2.2.3",
+    "pug": "^3.0.2",
+    "save": "^2.9.0"
+  },
+  
+  "name": "myfirstweb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
+
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  }
+
+}
