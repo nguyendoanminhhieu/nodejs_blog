@@ -4,7 +4,7 @@ const pug = require('pug');
 const Joi = require("joi");
 const fobj = require('fs');
 const mongoose = require('mongoose');
-const number = require('joi/lib/types/number');
+//const number = require('joi/lib/types/number');
 const json2html = require('node-json2html');
 const bodyParser = require('body-parser');
 const studentFN = "./studentdata.txt";
@@ -27,7 +27,7 @@ router.get('',(req,res)=>{
 
 
 router.get('/connectDB',(req,res) => {
-    const uriCluster0 = 'mongodb+srv://lyhuehuan:lyhuehuan123@cluster0.kgyqjwp.mongodb.net/test1';
+    const uriCluster0 = 'mongodb+srv://hieundmgcd210003:Hieu16032003@cluster0.cpfwvvz.mongodb.net//test1';
     mongoose.connect(uriCluster0)
     .then(() => {
         res.status(200).send("Connected to mongoDB");
